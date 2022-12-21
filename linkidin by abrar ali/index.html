@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="linkidin.js">
+    <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.css">
+    <title>Linkidin clone by abrar ali</title>
+</head>
+
+<body>
+
+    <nav>
+
+
+        <div class="left_nav">
+            <div class="logo">
+                <img src="images/linkidin.png">
+            </div>
+            <div class="search_box">
+                <i class="fas fa-search"></i>
+
+                <input type="search" placeholder="search here">
+
+
+            </div>
+        </div>
+
+        <div class="nav_center">
+            <ul>
+
+                <li><a href="index.html"><i class="fas fa-home"></i><span> Home</span></a></li>
+                <li><a href="#"><i class="fas fa-user"></i><span> My Network</span></a></li>
+                <li><a href="#"><i class="fas fa-wallet"></i><span> Jobs</span></a></li>
+                <li><a href="#"><i class="fas fa-envelope-open-text"></i><span> Messaging</span></a></li>
+                <li><a href="#"><i class="fas fa-bell"></i><span> Notifications</span></a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="right_nav">
+            <p>
+                <img src="images/myprofile.jpg" onclick="toggleMenu()">
+            </p>
+
+        </div>
+        <div class="profile_drop_down" id="profilePicture">
+            <div class="profile_detail">
+
+                <div class="profile_links">
+
+                    <img src="images/myprofile.jpg">
+                    <div class="Prfoile">
+                        <h3>Abrar Ali</h3>
+                        <a href="profile.html">
+                            see your profile </a>
+
+                    </div>
+
+
+                </div>
+                <div class="profile_link">
+                    <i class="fas fa-envelope-square" style="color:#fff"></i>
+                    <a href="profile.html">
+                        Give Feedback <span>></span></a>
+
+                </div>
+                <div class="profile_link">
+                    <i class="fas fa-pager" style="color:#fff"></i>
+                    <a href="profile.html">
+                        Setting and Privacy <span>></span></a>
+
+                </div>
+                <div class="profile_link">
+                    <i class="fas fa-subscript" style="color:#fff"></i>
+                    <a href="profile.html">
+                        Help and Support <span>></span></a>
+
+                </div>
+                <div class="profile_link">
+                    <i class="fas fa-moon" style="color:#fff"></i>
+                    <a href="profile.html">
+                        Display and Accessiblity <span>></span></a>
+
+                </div>
+                <div class="profile_link">
+                    <i class="fas fa-h-square" style="color:#fff"></i>
+
+                    <a href="profile.html">
+                        Logout <span>></span></a>
+
+                </div>
+
+            </div>
+
+    </nav>
+
+    <div class="container">
+
+
+        <div class="left_content">
+            <div class="master">
+                <div class="sidebar-profile-box">
+                    <img src="images/cover.jpg" style="width:100%">
+
+                    <div class="sidebar-profile-info">
+
+                        <img src="images/myprofile.jpg" style="width:100%">
+                        <h1>Abrar Ali</h1>
+                        <h3>Web Devloper at Goggle</h3>
+                        <ul>
+
+                            <li>Your Profile views<span>342</span></li>
+                            <li>Your Post views<span>2332</span></li>
+                            <li>Your Connections <span>102</span></li>
+
+
+                        </ul>
+
+                    </div>
+                    <div class="sidebar-profile-link">
+                        <a href=""><img src="images/images.png" alt=""> My Items</a>
+                        <a href=""> <img src="images/images.png" alt=""> Perimimum</a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="sidebar_activity">
+
+                <h1>Recent </h1>
+
+                <div class="sidebar_activity_tag">
+                    <a href=""> <i class="fas fa-clock"></i> <span>Web Develeopemnt</span></a>
+                    <a href=""> <i class="fas fa-clock"></i><span>Graphics design</span></a>
+                    <a href=""> <i class="fas fa-clock"></i><span>website design</span></a>
+                    <a href=""> <i class="fas fa-clock"></i><span>Software design</span></a>
+                    <a href=""> <i class="fas fa-clock"></i><span>personal motivations</span></a>
+                    <a href=""> <i class="fas fa-clock"></i><span>Javscript developemnts</span></a>
+                    <a href=""> <i class="fas fa-clock"></i><span>Larevl devlopemnts</span></a>
+
+                </div>
+                <h1>Groups </h1>
+
+                <div class="sidebar_activity_tag">
+                    <a href=""> <i class="fas fa-user-friends"></i> <span>Web Develeopemnt</span></a>
+                    <a href=""> <i class="fas fa-user-friends"></i><span>Graphics design</span></a>
+                    <a href=""> <i class="fas fa-user-friends"></i><span>website design</span></a>
+                    <a href=""> <i class="fas fa-user-friends"></i><span>Software design</span></a>
+                    <a href=""> <i class="fas fa-user-friends"></i><span>personal motivations</span></a>
+                    <a href=""> <i class="fas fa-user-friends"></i><span>Javscript developemnts</span></a>
+                    <a href=""> <i class="fas fa-user-friends"></i><span>Larevl devlopemnts</span></a>
+                </div>
+                <h1>Hashtag </h1>
+
+                <div class="sidebar_activity_tag">
+                    <a href=""> <i class="fas fa-hashtag"></i> <span>Web Develeopemnt</span></a>
+                    <a href=""> <i class="fas fa-hashtag"></i><span>Graphics design</span></a>
+                    <a href=""> <i class="fas fa-hashtag"></i><span>website design</span></a>
+                    <a href=""> <i class="fas fa-hashtag"></i><span>Software design</span></a>
+                    <a href=""> <i class="fas fa-hashtag"></i><span>personal motivations</span></a>
+                    <a href=""> <i class="fas fa-hashtag"></i><span>Javscript developemnts</span></a>
+                    <a href=""> <i class="fas fa-hashtag"></i><span>Larevl devlopemnts</span></a>
+
+                </div>
+
+            </div>
+
+            <div class="discover_more">
+
+
+                <a href="#">Discover More</a>
+            </div>
+
+        </div>
+
+        <div class="main_content">
+
+            <div class="create-post">
+
+
+                <div class="create-post-input">
+                    <img src="images/myprofile.jpg">
+                    <textarea rows="2" placeholder="Write Post Here"></textarea>
+
+                </div>
+                <div class="create_post_links">
+                    <li><i class="fas fa-image"></i> Photo</li>
+                    <li><i class="fas fa-video"></i> Video</li>
+                    <li><i class="fas fa-envelope"></i>Event</li>
+                    <li> Post</li>
+
+
+
+
+                </div>
+            </div>
+            <div class="sort_by">
+
+                <hr>
+
+                <p>Sort by: <span>top <i class="fas fa-arrow-alt-circle-down"></i></span></p>
+
+            </div>
+            <div class="post">
+
+
+                <div class="post_author">
+
+
+
+
+
+
+                    <img src="images/profiles.jpg">
+
+                    <div class="details">
+                        <h1>Abrar Ali</h1>
+                        <small>Founder and CEO at Microsoft Group | Economist</small>
+                        <small>2 hours ago</small>
+                    </div>
+                </div>
+
+                <p> Crypto currency is the world most dangerous tarding
+                    if we are not going to stop the econmoy of the country is
+                    on alerting state we have to work hardly Crypto currency is the world most dangerous tarding Crypto
+                    currency is the world most dangerous tarding Crypto currency is the world most dangerous tarding
+                </p>
+                <img src="images/blockchain-technology-background-gradient-blue.jpg" style="width:100%">
+
+                <div class="post_status">
+
+                    <div class="inner_statub">
+
+
+                        <i class="fas fa-heart"
+                            style="font-size:10px;background-color:red;color:#fff;border-radius: 50px;padding:2px;"></i>
+                        <i class="fas fa-thumbs-up" style="color:#045be6"></i>
+                        <i class="fas fa-smile" style="color:rgb(152, 152, 48)"></i>
+                        <span>Abudlaziz and 89 others</span>
+                    </div>
+
+                    <div class="comment">
+                        <span>52 comments &middot; 89 shares</span>
+
+
+                    </div>
+                </div>
+
+                <div class="post_activty">
+                    <div class="users_icon">
+                        <img src="images/profiles.jpg" alt="">
+                        <i class="fas fa-arrow-circle-down"></i>
+                    </div>
+                    <div class="icon_space">
+                        <i class="fas fa-thumbs-up" style="color:#333"></i>
+                        <span>Like</span>
+                    </div>
+
+                    <div class="icon_space">
+                        <i class="fas fa-envelope" style="color:#333"></i>
+
+                        <span>comments</span>
+                    </div>
+                    <div class="icon_space">
+                        <i class="fas fa-reply" style="color:#333"></i>
+
+                        <span>Share</span>
+                    </div>
+                    <div class="icon_space">
+                        <i class="fab fa-telegram" style="color:#333"></i>
+
+                        <span>Send</span>
+                    </div>
+
+
+
+
+
+                </div>
+
+
+            </div>
+            <div class="post">
+
+
+                <div class="post_author">
+
+
+
+
+
+
+                    <img src="images/profiles.jpg">
+
+                    <div class="details">
+                        <h1>Abrar Ali</h1>
+                        <small>Founder and CEO at Microsoft Group | Economist</small>
+                        <small>2 hours ago</small>
+                    </div>
+                </div>
+
+                <p> Crypto currency is the world most dangerous tarding
+                    if we are not going to stop the econmoy of the country is
+                    on alerting state we have to work hardly Crypto currency is the world most dangerous tarding Crypto
+                    currency is the world most dangerous tarding Crypto currency is the world most dangerous tarding
+                </p>
+                <img src="images/2921442_26824.jpg" style="width:100%">
+
+                <div class="post_status">
+
+                    <div class="inner_statub">
+
+
+                        <i class="fas fa-heart"
+                            style="font-size:10px;background-color:red;color:#fff;border-radius: 50px;padding:2px;"></i>
+                        <i class="fas fa-thumbs-up" style="color:#045be6"></i>
+                        <i class="fas fa-smile" style="color:rgb(152, 152, 48)"></i>
+                        <span>Abudlaziz and 89 others</span>
+                    </div>
+
+                    <div class="comment">
+                        <span>52 comments &middot; 89 shares</span>
+
+
+                    </div>
+                </div>
+
+                <div class="post_activty">
+                    <div class="users_icon">
+                        <img src="images/profiles.jpg" alt="">
+                        <i class="fas fa-arrow-circle-down"></i>
+                    </div>
+                    <div class="icon_space">
+                        <i class="fas fa-thumbs-up" style="color:#333"></i>
+                        <span>Like</span>
+                    </div>
+
+                    <div class="icon_space">
+                        <i class="fas fa-envelope" style="color:#333"></i>
+
+                        <span>comments</span>
+                    </div>
+                    <div class="icon_space">
+                        <i class="fas fa-reply" style="color:#333"></i>
+
+                        <span>Share</span>
+                    </div>
+                    <div class="icon_space">
+                        <i class="fab fa-telegram" style="color:#333"></i>
+
+                        <span>Send</span>
+                    </div>
+
+
+
+
+
+                </div>
+
+
+            </div>
+            <div class="post">
+
+
+                <div class="post_author">
+
+
+
+
+
+
+                    <img src="images/profiles.jpg">
+
+                    <div class="details">
+                        <h1>Abrar Ali</h1>
+                        <small>Founder and CEO at Microsoft Group | Economist</small>
+                        <small>2 hours ago</small>
+                    </div>
+                </div>
+
+                <p> Crypto currency is the world most dangerous tarding
+                    if we are not going to stop the econmoy of the country is
+                    on alerting state we have to work hardly Crypto currency is the world most dangerous tarding Crypto
+                    currency is the world most dangerous tarding Crypto currency is the world most dangerous tarding
+                </p>
+                <img src="images/14064705_5429482.jpg" style="width:100%">
+
+                <div class="post_status">
+
+                    <div class="inner_statub">
+
+
+                        <i class="fas fa-heart"
+                            style="font-size:10px;background-color:red;color:#fff;border-radius: 50px;padding:2px;"></i>
+                        <i class="fas fa-thumbs-up" style="color:#045be6"></i>
+                        <i class="fas fa-smile" style="color:rgb(152, 152, 48)"></i>
+                        <span>Abudlaziz and 89 others</span>
+                    </div>
+
+                    <div class="comment">
+                        <span>52 comments &middot; 89 shares</span>
+
+
+                    </div>
+                </div>
+
+                <div class="post_activty">
+                    <div class="users_icon">
+                        <img src="images/profiles.jpg" alt="">
+                        <i class="fas fa-arrow-circle-down"></i>
+                    </div>
+                    <div class="icon_space">
+                        <i class="fas fa-thumbs-up" style="color:#333"></i>
+                        <span>Like</span>
+                    </div>
+
+                    <div class="icon_space">
+                        <i class="fas fa-envelope" style="color:#333"></i>
+
+                        <span>comments</span>
+                    </div>
+                    <div class="icon_space">
+                        <i class="fas fa-reply" style="color:#333"></i>
+
+                        <span>Share</span>
+                    </div>
+                    <div class="icon_space">
+                        <i class="fab fa-telegram" style="color:#333"></i>
+
+                        <span>Send</span>
+                    </div>
+
+
+
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="right_content">
+
+            <div class="sidebar_news">
+
+                <i class="fas fa-circle-notch"></i>
+                <h1>Trending News</h1>
+                <a href="#">High demand for skilled manpower</a>
+                <span>1d ago &middot; 22,934 readers</span>
+                <a href="#">We Are Working To Live Life of persons</a>
+                <span>1d ago &middot; 10,934 readers</span>
+                <a href="#">Where is the people life expetancy did</a>
+                <span>1d ago &middot; 9,934 readers</span>
+                <a href="#">poltical integration for our country </a>
+                <span>1d ago &middot; 12,934 readers</span>
+                <a href="#">High demand for skilled manpower</a>
+                <span>1d ago &middot; 19,9388 readers</span>
+                <a href="#">High demand for skilled manpower</a>
+                <span>1d ago &middot; 17,7834 readers</span>
+                <a href="" class="read_more_link">Read More</a>
+            </div>
+
+            <div class="sidebar_ad">
+                <small>ad &middot;&middot;&middot;</small>
+                <p>
+                    Master The 5 princples of web design
+                </p>
+                <div class="imgs">
+
+                    <img src="images/myprofile.jpg" alt="">
+                    <img src="images/images.png" alt="">
+                </div>
+                <b>Brand and Demand Xiamoi</b>
+                <br>
+                <a href="#" class="ad_link">Learn More</a>
+            </div>
+
+            <div class="sidebar_useful_links">
+
+
+                <a href="#">About</a>
+                <a href="#">Accessiblity</a>
+                <a href="#">Help Center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Advertising</a>
+                <a href="#">Get the App</a>
+                <a href="#">More</a>
+                <div class="copyright_msg">
+
+                    <img src="images/linkidin.png">
+                    <p>linkidin &#169; 2022. All right Reserved</p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+    <script>
+
+
+        let profilePicture = document.getElementById("profilePicture");
+        function toggleMenu() {
+            profilePicture.classList.toggle("lifestyle")
+        }
+    </script>
+</body>
+
+</html>
